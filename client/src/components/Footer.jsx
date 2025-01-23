@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer_center">
         <h3>Useful Links</h3>
         <ul>
-          <li>About Us</li>
+          <li> <a href="/about">  About Us </a></li>
           <li>Terms and Conditions</li>
           <li>Return and Refund Policy</li>
         </ul>
@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
         <div className="footer_right_info">
           <Email />
-          <p>dreamnest@support.com</p>
+          <p>allocasa@support.com</p>
         </div>
         <img src="/assets/payment.png" alt="payment" />
       </div>
